@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Genome Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🧬 Simple Genome Viewer</h1>
+        <p>explore genomic variants and gene expression data</p>
+      </header>
+
+      <div class="controls">
+        <button id="loadVariants" class="btn">Load Sample Variants</button>
+        <button id="loadExpression" class="btn">Load Gene Expression</button>
+        <button id="exportData" class="btn">Export to JSON</button>
+        <button id="clearData" class="btn btn-secondary">Clear</button>
+      </div>
+
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="search by gene name or chromosome..."
+        />
+        <button id="searchBtn" class="btn-small">Search</button>
+      </div>
+
+      <div class="stats-panel">
+        <div class="stat-card">
+          <h3 id="totalCount">0</h3>
+          <p>Total Entries</p>
+        </div>
+        <div class="stat-card">
+          <h3 id="chromosomeCount">0</h3>
+          <p>Chromosomes</p>
+        </div>
+        <div class="stat-card">
+          <h3 id="geneCount">0</h3>
+          <p>Unique Genes</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
