@@ -4,7 +4,7 @@ this is a simple web-based genome viewer that lets you explore genomic variants 
 
 the app shows you genomic variants (like SNPs and deletions) with their chromosome locations and clinical significance, plus gene expression levels from different tissues and conditions. everything updates in real-time as you search and filter.
 
-[Software Demo Video](https://youtu.be/YOUR_VIDEO_LINK_HERE)
+[Software Demo Video](https://www.youtube.com/watch?v=wuusXxUBMNw)
 
 # Development Environment
 
